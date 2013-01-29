@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VQQvCMAyG4aon9aSeVBg4L1PB///z/IQdSkhnRagZvIfnEBJosyasSyl1QGNHOcl5jBeVddFcpJerk3v3tJTVh7oIbnKXxxg/s9xaNrJ16uZkJ3s5FPJD4/tMnWfnfmoPBkfrPkrn2rnPY3vnKHvu9WLnPo/z2mh7XjsPti7innu9/Hv2f+nl2zeKyH776P/rWqU9nts7RdxjAAAAAAAAAAAAoJUXGNGFphAnAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="50" height="50">
+  <object name="SpawnPoint" x="64" y="480" width="32" height="32"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,16 @@
+﻿Build started 29.01.2013 20:29:33.
+     1>Project "C:\Users\Sergey\Documents\cocos\cocos2dx\TiledGame\proj.win32\TiledGame.win32.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /I..\Classes /IC:\Users\Sergey\Documents\cocos\cocos2dx\cocos2dx /IC:\Users\Sergey\Documents\cocos\cocos2dx\cocos2dx\include /IC:\Users\Sergey\Documents\cocos\cocos2dx\cocos2dx\kazmath\include /IC:\Users\Sergey\Documents\cocos\cocos2dx\cocos2dx\platform\win32 /IC:\Users\Sergey\Documents\cocos\cocos2dx\cocos2dx\platform\third_party\win32 /IC:\Users\Sergey\Documents\cocos\cocos2dx\cocos2dx\platform\third_party\win32\OGLES /IC:\Users\Sergey\Documents\cocos\cocos2dx\external /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\HelloWorldScene.cpp
+         HelloWorldScene.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sergey\Documents\cocos\cocos2dx\Debug.win32\TiledGame.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Sergey\Documents\cocos\cocos2dx\Debug.win32\ libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libBox2d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sergey\Documents\cocos\cocos2dx\Debug.win32\TiledGame.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sergey\Documents\cocos\cocos2dx\Debug.win32\TiledGame.win32.lib" /MACHINE:X86 Debug.win32\TiledGame.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+         TiledGame.win32.vcxproj -> C:\Users\Sergey\Documents\cocos\cocos2dx\Debug.win32\TiledGame.win32.exe
+     1>Done Building Project "C:\Users\Sergey\Documents\cocos\cocos2dx\TiledGame\proj.win32\TiledGame.win32.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.79
