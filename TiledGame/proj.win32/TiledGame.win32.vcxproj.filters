@@ -2,15 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="source">
-      <UniqueIdentifier>{850d9596-1836-4c63-87b2-b52476795963}</UniqueIdentifier>
+      <UniqueIdentifier>{351924a7-32e7-4ae2-bfb5-605eeb178032}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
     </Filter>
     <Filter Include="include">
-      <UniqueIdentifier>{46df19b9-f0a1-49bb-beb0-174675b33b62}</UniqueIdentifier>
+      <UniqueIdentifier>{3c9b0d17-49f5-44ec-959a-68deb07b9554}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
     </Filter>
     <Filter Include="resource">
-      <UniqueIdentifier>{5b7b3d96-86de-4732-9a32-6883418d8ae5}</UniqueIdentifier>
+      <UniqueIdentifier>{4cb5bcbd-64ef-4d89-8c53-097a5e311ebc}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
     </Filter>
   </ItemGroup>
@@ -25,6 +25,15 @@
       <Filter>resource</Filter>
     </Image>
     <Image Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\TileGameResources\meta_tiles.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\TileGameResources\Player.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\TileGameResources\tmw_desert_spacing.png">
       <Filter>resource</Filter>
     </Image>
   </ItemGroup>
@@ -57,5 +66,22 @@
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>source</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\TileGameResources\hit.caf">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\TileGameResources\move.caf">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\TileGameResources\pickup.caf">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\TileGameResources\TileMap.caf">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\TileGameResources\TileMap.tmx">
+      <Filter>resource</Filter>
+    </None>
   </ItemGroup>
 </Project>

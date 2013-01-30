@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A42029BB-348A-44FD-886D-7CB1E03F4402}</ProjectGuid>
+    <ProjectGuid>{CAE90A09-AF0C-4DE4-BEC7-A8AF7319AF07}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -121,6 +121,9 @@
     <Image Include="..\Resources\CloseNormal.png" />
     <Image Include="..\Resources\CloseSelected.png" />
     <Image Include="..\Resources\HelloWorld.png" />
+    <Image Include="..\Resources\TileGameResources\meta_tiles.png" />
+    <Image Include="..\Resources\TileGameResources\Player.png" />
+    <Image Include="..\Resources\TileGameResources\tmw_desert_spacing.png" />
     <Image Include="res\TiledGame.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +139,13 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\TileGameResources\hit.caf" />
+    <None Include="..\Resources\TileGameResources\move.caf" />
+    <None Include="..\Resources\TileGameResources\pickup.caf" />
+    <None Include="..\Resources\TileGameResources\TileMap.caf" />
+    <None Include="..\Resources\TileGameResources\TileMap.tmx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
   <image source="tmw_desert_spacing.png" width="265" height="199"/>
  </tileset>
+ <tileset firstgid="49" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="Background" width="50" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3VQQvCMAyG4aon9aSeVBg4L1PB///z/IQdSkhnRagZvIfnEBJosyasSyl1QGNHOcl5jBeVddFcpJerk3v3tJTVh7oIbnKXxxg/s9xaNrJ16uZkJ3s5FPJD4/tMnWfnfmoPBkfrPkrn2rnPY3vnKHvu9WLnPo/z2mh7XjsPti7innu9/Hv2f+nl2zeKyH776P/rWqU9nts7RdxjAAAAAAAAAAAAoJUXGNGFphAnAAA=
+   H4sIAAAAAAAAC+3TsQrDMAyEYaedmk5tpiZgSAqFtu//frklIAwCDwHF4R8+uEHDCaScUsoAcDKdXOQqLxllKrKdie7ruUkvd5llkXeR7Ux035o9vvKTf5Ef8pThAH09tmPLd7X5pLbvymr5rs7I/oGXozvWsH/g5eiONewfeDm6IwAAAAAAAAAAALCXFeZ/k4oQJwAA
   </data>
  </layer>
  <objectgroup name="Objects" width="50" height="50">
-  <object name="SpawnPoint" x="64" y="480" width="32" height="32"/>
+  <object name="SpawnPoint" x="352" y="512" width="32" height="32"/>
  </objectgroup>
+ <layer name="Foreground" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TsQ3AIBADQDbJ/lvSokiQFJAYdFd/YWxRCvzrmnz3tVGu1MynmtG3zbLYYw29Znizw/0mfbv0fJBqt7/e6mVNfsPOfQMAAAAAAM8qdvFdeRAnAAA=
+  </data>
+ </layer>
+ <layer name="Meta" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TWwqAIBCFYbdk+19cT8Ego2ZEnSP/B9HLIHMtBfjX8XLc10Z5qea8q9jvuvhlbyio4Z/lm8UqelqH4jxG+9PGqrr66l5HtHLnKu7sdxujdhOt3m45zCMzy9m1Dtd57Mzt1qNerso1OPcbAAAAAAAAAADMnVtWYH0QJwAA
+  </data>
+ </layer>
 </map>
